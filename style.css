@@ -3,7 +3,6 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Nunito', sans-serif;
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
@@ -13,7 +12,7 @@ section{
 }
 
 header{
-    background-color: aliceblue;
+    background-color: #A3A380;
     width: 100%;
     position: fixed;
     z-index: 999;
@@ -26,14 +25,14 @@ header{
 
 .logo{
     text-decoration: none;
-    color: cadetblue;
+    color: #EFEBCE;
     text-transform: uppercase;
     font-weight: 800;
     font-size: 2.5em;
 }
 
 nav a{
-    color: cadetblue;
+    color: #EFEBCE;
     text-decoration: none;
     font-size: 1.1em;
     font-weight: 700;
@@ -45,13 +44,15 @@ nav a:hover{
 }
 
 .main{
-    background-color: rgb(29, 1, 43);
+    background-color: #D6CE93;
     height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
 }
 
+.main .content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 .main h2{
     color: #fff;
     font-size: 1.4;
@@ -60,7 +61,7 @@ nav a:hover{
 
 .main h2 span{
     display: inline-block;
-    color: aquamarine;
+    color: 0077B6;
     font-size: 3em;
     font-weight: 600;
     margin-top: 20px;
@@ -68,7 +69,7 @@ nav a:hover{
 
 .main-btn{
     color: #fff;
-    background-color:cadetblue;
+    background-color:#A3A380;
     text-decoration: none;
     font-size: 1em;
     font-weight: 700;
@@ -97,13 +98,13 @@ nav a:hover{
 }
 
 .social-icons a:hover{
-   background-color: cadetblue;
+   background-color: #A3A380;
 }
 /*services*/
 
 .title{
     text-align: center;
-    color: cadetblue;
+    color: #D6CE93;
     font-size: 2.7em;
     font-weight: 800;
     margin-bottom: 30px;
@@ -129,16 +130,16 @@ nav a:hover{
 }
 
 .card:hover{
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
 .icon {
-    color: cadetblue;
+    color: #D6CE93;
     font-size: 7em;
 }
 
 .info h3{
-    color: cadetblue;
+    color: #D6CE93;
     font-size: 1.2em;
     font-weight: 700;
     margin: 10px;
@@ -147,7 +148,11 @@ nav a:hover{
 /*projects*/
 
 .projects{
-    background-color: rgb(29, 1, 43);
+    background-color: #D6CE93;
+}
+
+.projects h2{
+    color: #fff;
 }
 
 .projects .content{
@@ -168,13 +173,14 @@ nav a:hover{
 }
 
 .project-card:hover{
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
 .project-image img{
     width: 100%;
     height: 14em;
     border-radius: 10px;
+    object-fit: cover;
 }
 
 .project-info{
@@ -198,7 +204,7 @@ nav a:hover{
 
 .more-details{
     text-decoration: none;
-    color: cadetblue;
+    color: #D6CE93;
 }
 
 .more-details:hover{
@@ -222,8 +228,8 @@ nav a:hover{
 }
 
 .contact .card{
-    width: 36%;
-    min-width: 280px;
+    width: 25%;
+    min-width: 180px;
 }
 
 .contact .icon{ 
@@ -243,7 +249,7 @@ nav a:hover{
 
 
 .footer{
-    background-color: rgb(31, 29, 29);
+    background-color: #D6CE93;
     color: #fff;
     display: flex;
     justify-content: space-around;
@@ -257,9 +263,7 @@ nav a:hover{
     font-weight: 600;
 }
 
-.footer-title span {
-    color:cadetblue;
-}
+
 
 /*media*/
 
@@ -279,7 +283,7 @@ nav a:hover{
     
     .main-btn{
         color: #fff;
-        background-color:cadetblue;
+        background-color:#D6CE93;
         text-decoration: none;
         font-size: 1em;
         font-weight: 700;
@@ -300,7 +304,7 @@ nav a:hover{
     }
     
     .social-icons a:hover{
-       background-color: cadetblue;
+       background-color: #D6CE93;
     }
 
     section{
